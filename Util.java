@@ -15,6 +15,7 @@ public class Util {
            if(arr.length-j==1 && sum!=k){
                sum=0; i++; j=i-1;
            }
+           
        }
         return cnt;
     }
