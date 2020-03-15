@@ -1,7 +1,7 @@
 package amdocs;
 
 
-public class Util {
+public class Utils {
     private static int cnt=0;
     public static int getCountOfSubArrays(int arr[], int k){
         //  {10, 2, -2, -20, 10}
@@ -15,7 +15,7 @@ public class Util {
            if(arr.length-j==1 && sum!=k){
                sum=0; i++; j=i-1;
            }
-           
+
        }
         return cnt;
     }
