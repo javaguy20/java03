@@ -79,16 +79,6 @@ public class SinglyLinkList {
         }else
         throw  new InvalidIndexException("Invalid index");
         return null;
-      /*  Node current=head;
-        int nodeNumber=0;
-        if (index<=cnt) {
-            while (null != current) {
-                current = current.next;
-                nodeNumber++;
-            }
-            return null;
-        }else
-            throw new InvalidIndexException("given index is invalid !!!");*/
     }
 
     public int size(){
