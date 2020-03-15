@@ -5,5 +5,5 @@ public class InvalidIndexException extends Exception {
         super(msg);
     }
 
-    
+
 }
